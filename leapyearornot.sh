@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -x
 
 read -p "Enter the year:" year
 if [[ $(($year%4)) -eq 0 ]]
